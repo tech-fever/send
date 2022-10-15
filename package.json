@@ -223,5 +223,6 @@
     "zgh",
     "zh-CN",
     "zh-TW"
-  ]
+  ],
+  "webcrypto-core": "github:mozilla-fxa/webcrypto-core"
 }
