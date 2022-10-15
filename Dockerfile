@@ -26,7 +26,7 @@ RUN set -x \
 
 
 # Main image
-FROM node:18
+FROM node:18-slim
 RUN set -x \
     # Add user
     && addgroup --gid 10001 app \
