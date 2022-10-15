@@ -6,7 +6,7 @@
 
 
 # Build project
-FROM node:16 AS builder
+FROM node:18 AS builder
 RUN set -x \
     # Add user
     && addgroup --gid 10001 app \
@@ -26,7 +26,7 @@ RUN set -x \
 
 
 # Main image
-FROM node:16
+FROM node:18
 RUN set -x \
     # Add user
     && addgroup --gid 10001 app \
